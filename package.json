@@ -18,7 +18,8 @@
     "build:dev": "webpack --mode development",
     "build": "webpack --mode production",
     "lint": "eslint .",
-    "start": "zcli apps:server dist"
+    "start": "zcli apps:server dist",
+    "sonar": "sonar-scanner"
   },
   "devDependencies": {
     "@babel/core": "^7.16.0",

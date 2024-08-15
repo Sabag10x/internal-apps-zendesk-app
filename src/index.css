@@ -1,0 +1,21 @@
+.ia-container {
+  color: rgb(var(--foreground-rgb));
+  margin-left: 1em !important;
+  margin-right: 1em !important;
+  gap: 1em;
+  width: calc(100% - 1em);
+}
+
+.ia-container * {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.loader {
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 40px;
+}
